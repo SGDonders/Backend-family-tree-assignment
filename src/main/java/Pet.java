@@ -1,19 +1,24 @@
 public class Pet {
 
-    /* instance variables */
+    /* Instance variables */
 
     public String name;
     public int age;
     public String species;
     public String owner;
 
-    /* constructor */
+    /* Constructors */
+
+    public Pet() {
+    }
 
     public Pet(String name, int age, String species) {
         this.name = name;
         this.age = age;
         this.species = species;
     }
+
+    /* Getters & Setters */
 
     public void setName(String name) {
         this.name = name;
@@ -39,7 +44,7 @@ public class Pet {
         return species;
     }
 
-    /* methods */
+    /* Methods */
 
     public void addOwner() {
 
