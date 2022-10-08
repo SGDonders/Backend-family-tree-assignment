@@ -2,17 +2,24 @@ import java.util.List;
 
 public class Person {
 
-    public String name;
-    public String middleName;
-    public String lastName;
-    public String sex;
-    public int age;
-    public String mother;
-    public String father;
+    /* Instance variables */
 
-    public List<Person> siblings;
-    public List<Person> children;
-    public List<Person> pets;
+    private String name;
+    private String middleName;
+    private String lastName;
+    private String sex;
+    private int age;
+    private Person mother;
+    private Person father;
+
+    private List<Person> siblings;
+    private List<Person> children;
+    private List<Person> pets;
+
+    /* Constructors */
+
+    public Person() {
+    }
 
     public Person(String name, String lastName, String sex, int age) {
         this.name = name;
@@ -28,6 +35,8 @@ public class Person {
         this.sex = sex;
         this.age = age;
     }
+
+    /* Getters & Setters */
 
     public void setName(String name) {
         this.name = name;
@@ -49,11 +58,11 @@ public class Person {
         this.age = age;
     }
 
-    public void setMother(String mother) {
+    public void setMother(Person mother) {
         this.mother = mother;
     }
 
-    public void setFather(String father) {
+    public void setFather(Person father) {
         this.father = father;
     }
 
@@ -89,11 +98,11 @@ public class Person {
         return age;
     }
 
-    public String getMother() {
+    public Person getMother() {
         return mother;
     }
 
-    public String getFather() {
+    public Person getFather() {
         return father;
     }
 
@@ -107,5 +116,30 @@ public class Person {
 
     public List<Person> getPets() {
         return pets;
+    }
+
+    /* Methods */
+
+    public void addParents(Person father, Person mother, Person child) {
+        child.setMother(mother);
+        child.setFather(father);
+
+
+    }
+
+    public void addChild() {
+
+    }
+
+    public void addPet() {
+
+    }
+
+    public void sibling() {
+
+    }
+
+    public void getGrandChildren() {
+        
     }
 }
