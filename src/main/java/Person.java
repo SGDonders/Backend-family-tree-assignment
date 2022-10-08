@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class Person {
@@ -121,25 +122,33 @@ public class Person {
     /* Methods */
 
     public void addParents(Person father, Person mother, Person child) {
-        child.setMother(mother);
+
         child.setFather(father);
+        List<Person> children = father.getChildren();
+        children.add(child);
+        father.setChildren(children);
 
+        child.setMother(mother);
+        List<Person> childs = mother.getChildren();
+        childs.add(child);
+        mother.setChildren(childs);
 
     }
 
-    public void addChild() {
+    public void addChild(Person parent, Person child) {
 
     }
+
 
     public void addPet() {
 
     }
 
-    public void sibling() {
+    public void addSibblings() {
 
     }
 
     public void getGrandChildren() {
-        
+
     }
 }
