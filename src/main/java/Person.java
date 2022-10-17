@@ -22,6 +22,18 @@ public class Person {
     public Person() {
     }
 
+    public String name;
+    public String middleName;
+    public String lastName;
+    public String sex;
+    public int age;
+    public String mother;
+    public String father;
+
+    public List<Person> siblings;
+    public List<Person> children;
+    public List<Person> pets;
+
     public Person(String name, String lastName, String sex, int age) {
         this.name = name;
         this.lastName = lastName;
@@ -36,8 +48,6 @@ public class Person {
         this.sex = sex;
         this.age = age;
     }
-
-    /* Getters & Setters */
 
     public void setName(String name) {
         this.name = name;
@@ -59,11 +69,11 @@ public class Person {
         this.age = age;
     }
 
-    public void setMother(Person mother) {
+    public void setMother(String mother) {
         this.mother = mother;
     }
 
-    public void setFather(Person father) {
+    public void setFather(String father) {
         this.father = father;
     }
 
@@ -99,11 +109,11 @@ public class Person {
         return age;
     }
 
-    public Person getMother() {
+    public String getMother() {
         return mother;
     }
 
-    public Person getFather() {
+    public String getFather() {
         return father;
     }
 
