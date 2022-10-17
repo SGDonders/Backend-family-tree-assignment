@@ -22,18 +22,6 @@ public class Person {
     public Person() {
     }
 
-    public String name;
-    public String middleName;
-    public String lastName;
-    public String sex;
-    public int age;
-    public String mother;
-    public String father;
-
-    public List<Person> siblings;
-    public List<Person> children;
-    public List<Person> pets;
-
     public Person(String name, String lastName, String sex, int age) {
         this.name = name;
         this.lastName = lastName;
@@ -69,11 +57,11 @@ public class Person {
         this.age = age;
     }
 
-    public void setMother(String mother) {
+    public void setMother(Person mother) {
         this.mother = mother;
     }
 
-    public void setFather(String father) {
+    public void setFather(Person father) {
         this.father = father;
     }
 
@@ -109,11 +97,11 @@ public class Person {
         return age;
     }
 
-    public String getMother() {
+    public Person getMother() {
         return mother;
     }
 
-    public String getFather() {
+    public Person getFather() {
         return father;
     }
 

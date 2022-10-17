@@ -6,8 +6,7 @@ public class Main {
         Person anita = new Person( "anita", "boom", "female", 36);
 
 
-        jantje.getMother().setMother(anita);
-        jantje.getMother().getName();
+
 
 
 
