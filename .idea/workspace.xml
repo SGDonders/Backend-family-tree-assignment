@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce190748-4069-46cf-a19e-b6206060f5f4" name="Changes" comment="Merge branch 'familytree' of github.com:SGDonders/backend-family-tree-assignment into familytree&#10;&#10; Conflicts:&#10;&#9;.idea/workspace.xml&#10;&#9;src/main/java/Person.java">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BE-familyThree.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BE-familyThree.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Person.java" afterDir="false" />
     </list>
@@ -75,7 +67,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PersonTest.shouldAddParents">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="BE-familyThree" />
@@ -95,8 +87,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PersonTest.shouldAddParents" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.PersonTest.shouldAddParents" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +117,9 @@
       <workItem from="1665474635091" duration="2736000" />
       <workItem from="1665514021994" duration="1460000" />
       <workItem from="1665559931894" duration="20000" />
-      <workItem from="1665998789978" duration="3697000" />
+      <workItem from="1665998789978" duration="7994000" />
+      <workItem from="1666014374856" duration="1817000" />
+      <workItem from="1666018290430" duration="2702000" />
     </task>
     <servers />
   </component>
