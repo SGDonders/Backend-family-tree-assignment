@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="ce190748-4069-46cf-a19e-b6206060f5f4" name="Changes" comment="Merge branch 'familytree' of github.com:SGDonders/backend-family-tree-assignment into familytree&#10;&#10; Conflicts:&#10;&#9;.idea/workspace.xml&#10;&#9;src/main/java/Person.java">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Person.java" afterDir="false" />
     <list default="true" id="ce190748-4069-46cf-a19e-b6206060f5f4" name="Changes" comment="">
+ main
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -41,11 +47,47 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="BE-familyThree" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonTest.shouldAddParents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BE-familyThree" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PersonTest" />
+      <option name="METHOD_NAME" value="shouldAddParents" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.PersonTest.shouldAddParents" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,6 +101,21 @@
       <workItem from="1665144095150" duration="182000" />
       <workItem from="1665144291564" duration="123000" />
       <workItem from="1665144448996" duration="1223000" />
+      <workItem from="1665248118717" duration="258000" />
+      <workItem from="1665259461674" duration="1485000" />
+      <workItem from="1665264188354" duration="1596000" />
+      <workItem from="1665317802062" duration="179000" />
+      <workItem from="1665318587937" duration="618000" />
+      <workItem from="1665395719509" duration="206000" />
+      <workItem from="1665400104985" duration="6153000" />
+      <workItem from="1665411157636" duration="11000" />
+      <workItem from="1665434935189" duration="477000" />
+      <workItem from="1665474635091" duration="2736000" />
+      <workItem from="1665514021994" duration="1460000" />
+      <workItem from="1665559931894" duration="20000" />
+      <workItem from="1665998789978" duration="7994000" />
+      <workItem from="1666014374856" duration="1817000" />
+      <workItem from="1666018290430" duration="2702000" />
     </task>
     <servers />
   </component>
@@ -70,10 +127,27 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/familytree" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="addParents" />
+    <MESSAGE value="Merge branch 'familytree' of github.com:SGDonders/backend-family-tree-assignment into familytree&#10;&#10; Conflicts:&#10;&#9;.idea/workspace.xml&#10;&#9;src/main/java/Person.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'familytree' of github.com:SGDonders/backend-family-tree-assignment into familytree&#10;&#10; Conflicts:&#10;&#9;.idea/workspace.xml&#10;&#9;src/main/java/Person.java" />
   </component>
 </project>

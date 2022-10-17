@@ -3,6 +3,25 @@ import java.util.List;
 
 public class Person {
 
+    /* Instance variables */
+
+    private String name;
+    private String middleName;
+    private String lastName;
+    private String sex;
+    private int age;
+    private Person mother;
+    private Person father;
+
+    private List<Person> siblings = new ArrayList<>();
+    private List<Person> children;
+    private List<Person> pets = new ArrayList<>();
+
+    /* Constructors */
+
+    public Person() {
+    }
+
     public String name;
     public String middleName;
     public String lastName;
@@ -109,3 +128,39 @@ public class Person {
     public List<Person> getPets() {
         return pets;
     }
+
+    /* Methods */
+
+    public void addParents(Person father, Person mother, Person child) {
+        child.setFather(father);
+        addChild(father, child);
+
+        child.setMother(mother);
+        addChild(mother, child);
+    }
+
+    public void addChild(Person parent, Person child) {
+        if(children == null) {
+            children = new ArrayList<>();
+            children.add(child);
+        } else {
+            children.add(child);
+        }
+    }
+
+
+
+
+    public void addPet() {
+
+
+
+    }
+    public void addSiblings() {
+
+    }
+
+    public void getGrandChildren() {
+
+    }
+}
