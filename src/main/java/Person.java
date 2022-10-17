@@ -13,9 +13,9 @@ public class Person {
     private Person mother;
     private Person father;
 
-    private List<Person> siblings;
-    private List<Person> children;
-    private List<Person> pets;
+    private List<Person> siblings = new ArrayList<>();
+    private List<Person> children = new ArrayList<>();
+    private List<Person> pets = new ArrayList<>();
 
     /* Constructors */
 
@@ -122,29 +122,25 @@ public class Person {
     /* Methods */
 
     public void addParents(Person father, Person mother, Person child) {
-
         child.setFather(father);
-        List<Person> children = father.getChildren();
-        children.add(child);
-        father.setChildren(children);
-
         child.setMother(mother);
-        List<Person> childs = mother.getChildren();
-        childs.add(child);
-        mother.setChildren(childs);
+
 
     }
 
-    public void addChild(Person parent, Person child) {
+    public void addChild(Person child) {
+        children.add(child);
 
     }
 
 
-    public void addPet() {
+
+
+    public void addPet(Person owner) {
+
 
     }
-
-    public void addSibblings() {
+    public void addSiblings() {
 
     }
 
